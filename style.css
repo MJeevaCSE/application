@@ -1,0 +1,38 @@
+.main{
+    border-style: solid;
+    margin: auto;
+    margin-top: 100px;
+    height: 350px;
+    width: 500px;
+    background-color: rgb(24, 182, 63);
+}
+
+.main h3{
+    
+    margin-left: 100px;
+    color: rgb(10, 25, 235);
+}
+.main h4{
+    margin-left: 200px;
+    color: rgb(250, 22, 6);
+}
+.main ul{
+    margin-left: 50px;
+}
+.main input{
+    margin-left: 25%;
+}
+.button{
+
+    text-align: center;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#number{
+    margin-left: 200px;
+}
+#sentence{
+    margin-left: 150px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+            <h3>Number Guessing Application</h5>
+            <h4>Rules:</h4>
+            <ul>
+                <li>Select a number from 1 to 100</li>
+                <li>Click  on the check button</li>
+                <li>It will give you hint to guess the number correctly</li>
+                <li>Repeat the same step until you find the number</li>
+            </ul>
+            <input type="number" id="no">
+            <p id="sentence"></p>
+            <p id="number"></p>
+            <div class="button">
+               <button id="check" onclick="check()">Check</button>
+               <button id="reset" onclick="reset()">Reset</button>
+            </div>
+    </div>
+    <script src="./new.js"></script>
+</body>
+</html>
